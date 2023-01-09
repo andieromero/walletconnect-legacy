@@ -7,7 +7,7 @@ import {
 } from "@walletconnect/legacy-utils";
 
 class SessionStorage {
-  constructor(public storageId: string = "walletconnect") {}
+  constructor(public storageId: string = "figureconnect") {}
 
   public getSession(): IWalletConnectSession | null {
     let session: IWalletConnectSession | null = null;
